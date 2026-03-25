@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family:"Lucida Calligraphy";
+    text-align: center;
+}
+header{
+    background:linear-gradient(180deg,teal,lightseagreen);
+    padding: 30px;
+    color: white;
+    font-size:15px;
+}
+h1{
+    font-size: 30px;
+}
+nav {
+    background:lightgray;
+    padding: 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+nav a:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+.places-section{
+    margin: 50px;
+}
+.places-section p{
+    margin: 10px;
+}
+.buttons{
+    margin-bottom:10px;
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.Visit-section p{
+    margin: 20px;
+}
+.Packages-section {
+    margin: 20px;
+}
+.Packages-section p{
+    margin:20px;
+}
+.Packages-section figure{
+    border:2px solid gray;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+.Packages-section figure img{
+    width:100%;
+}
+.Packages-section figcaption{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.Packages-section buttons{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.gallery-section p{
+    margin: 20px;
+}
+.gallery-section figure {
+    border:2px solid gray;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+   box-shadow: 0 0 10px gray;
+}
+.gallery-section figure img{
+    width:100%;
+}
+.gallery-section figcaption{
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.Contact-section{
+    margin: 20px;
+}
+.Contact-section div{
+    margin: 10px;
+}
+footer{
+    background:linear-gradient(180deg,teal,lightseagreen);
+    color:whitesmoke;
+    padding: 10px;
+}
